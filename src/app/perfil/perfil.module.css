@@ -1,0 +1,23 @@
+.perfil{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+    color: white;
+    font-family: monospace;
+}
+.educacion{
+    border: solid;
+    border-color: white;
+    background-color: black;
+    opacity: .8;
+    border-width: 1px;
+    padding: 10px;
+    width: 550px;
+}
+.contain{
+    font-family: monospace;
+    text-align: center;
+}
+.title{
+    text-decoration: underline;
+}

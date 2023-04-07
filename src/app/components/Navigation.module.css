@@ -1,0 +1,36 @@
+.header{
+    background-color: black;
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    width: 1200px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.naviagtion{
+    /* padding: 4px; */
+    background-color: black;
+    color: white;
+    border: solid;
+    border-width: 1.4px;
+    border-color: white;
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    font-family: monospace;
+
+}
+.link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}
