@@ -5,7 +5,6 @@ import styles from './Navigation.module.css'
 const links = [
     {   label: 'Home', route: '/' },
     { label: 'Proyectos', route: '/proyecto' },
-    { label: 'Acerca de mí', route: '/post'},
     { label: 'Perfil', route: '/perfil'}
   ]
 
