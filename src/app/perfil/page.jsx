@@ -9,12 +9,13 @@ export default function Perfil() {
             
             <div className={styles.educacion} >
                 <h1 className={styles.title} >Educacion</h1>
+                <h1>-Soy Henry</h1>
+                <h2>Graduado como Full stack developer - 2022-2023</h2>
+                <h3>Conocimientos en diversas tecnologias</h3>
                 <h1  > -Universitario</h1>
-                <h2>-UNSA (Universidad Nacional de Salta) - 2022-2023</h2>
+                <h2>UNSA (Universidad Nacional de Salta) - 2022-2023</h2>
                 <h3>   Tecnicatura Universitaria en Programacion - Incompleto/abandonado</h3>
-                <h1>-Secundario</h1>
-                <h2>-Escuela Comercio n° 5009 - 2017-2021</h2>
-                <h3>   Bachiller con orientacion en contabilidad</h3>
+                
             </div>
             <div className={styles.educacion} >
                 <h1 className={styles.title} >Experiencia Laboral</h1>
