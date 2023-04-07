@@ -20,7 +20,7 @@ export default function Proyecto(){
         <div className={styles.proyecto} >
 
         <div className={styles.single} >
-            <h2 className={styles.titulo} >Proyecto Final(Henry)</h2>
+            <h2 style={{textDecoration: "underline"}} >Proyecto Final(Henry)</h2>
             {/* <img src={pi} style={{"height": "8rem", "width": "20rem"}} alt="PI" /> */}
             <div className={styles.pf} ></div>
             <button className={styles.boton} onClick={show} value='pf' >Funciones</button>
@@ -40,7 +40,7 @@ export default function Proyecto(){
             </div>
 
             <div className={styles.single} >
-            <h2 className={styles.titulo} >Proyecto Individual (Henry)</h2>
+            <h2 style={{textDecoration: "underline"}} >Proyecto Individual (Henry)</h2>
             {/* <img src={pi} style={{"height": "8rem", "width": "20rem"}} alt="PI" /> */}
             <div className={styles.image} ></div>
             <button className={styles.boton} onClick={show} value='pi' >Funciones</button>
@@ -54,7 +54,7 @@ export default function Proyecto(){
 : ''}
             </div>
             <div className={styles.single} >
-            <h2 className={styles.titulo} >Rick and Morty</h2>
+            <h2 style={{textDecoration: "underline"}} >Rick and Morty</h2>
             {/* <img src={rym} style={{"height": "8rem", "width": "20rem", "opacity": "1"}} alt="RYM" ></img> */}
             <div className={styles.rym} ></div>
             <button className={styles.boton} onClick={show} value='rym' >Funciones</button>

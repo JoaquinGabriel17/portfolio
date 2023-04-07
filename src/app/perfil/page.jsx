@@ -4,7 +4,7 @@ import styles from './perfil.module.css'
 export default function Perfil() {
     return (
         <div className={styles.contain} >
-            <h1>Formacion</h1>
+            <h1 className={styles.titulo} >Formación</h1>
         <div className={styles.perfil} >
             
             <div className={styles.educacion} >
@@ -23,7 +23,7 @@ export default function Perfil() {
             {/* <h1>perfil profesional</h1> */}
         </div>
         <br></br>
-        <h1>Habilidades</h1>
+        <h1 className={styles.titulo} >Habilidades</h1>
         <div className={styles.perfil} >
             <div className={styles.educacion} >
                 <h1 className={styles.title} >IT</h1>

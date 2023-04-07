@@ -10,8 +10,14 @@
     gap: 70px;
 }
 .titulo{
-    text-decoration: underline;
-  }
+  background-color: black;
+  width: 200px;
+  margin-left: 31rem;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 1.9rem;
+}
   .lista{
     text-align: start;
     font-size: 1rem;
