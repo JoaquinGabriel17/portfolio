@@ -48,7 +48,7 @@ export function Proyecto(){
             </div>
             </div>
 
-            <div className={styles.single} >
+            <div className={styles.single}  >
             <h2 style={{textDecoration: "underline"}} >Proyecto Individual (Henry)</h2>
             {/* <img src={pi} style={{"height": "8rem", "width": "20rem"}} alt="PI" /> */}
             <div className={styles.image} ></div>
