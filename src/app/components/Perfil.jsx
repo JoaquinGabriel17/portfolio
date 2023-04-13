@@ -1,13 +1,19 @@
 import styles from './perfil.module.css'
 
 
-export default function Perfil() {
+export function Perfil() {
     return (
         <div className={styles.contain} >
-            <h1 className={styles.titulo} >Formación</h1>
+            <h1 className={styles.titulo} >Sobre mi</h1>
         <div className={styles.perfil} >
+            <p style={{fontSize: "1.2rem"}} >
+                Desde chico jugando videojuegos me familiarize con la tecnología, siguiendo por el mismo camino
+                estudié 1 año de programación en la Universidad Nacional de Salta, para luego apostar por Henry,
+                donde me gradué como Full Stack Developer y adquirí muchos conocimientos. Disfruto de programar
+                al igual que de estudiar historia
+            </p>
             
-            <div className={styles.educacion} >
+            {/* <div className={styles.educacion} >
                 <h1 className={styles.title} >Educacion</h1>
                 <h1>-Soy Henry</h1>
                 <h2>Graduado como Full stack developer - 2022-2023</h2>
@@ -22,7 +28,7 @@ export default function Perfil() {
                 <h1>Buscando mi primer empleo</h1>
             </div>
             {/* <h1>perfil profesional</h1> */}
-        </div>
+        {/* </div>
         <br></br>
         <h1 className={styles.titulo} >Habilidades</h1>
         <div className={styles.perfil} >
@@ -45,7 +51,7 @@ export default function Perfil() {
                     <li>React js - Avanzado</li>
                     
                 </ul>
-            </div>
+            </div> */}
         </div>
         </div>
     )

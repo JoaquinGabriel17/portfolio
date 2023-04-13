@@ -10,13 +10,12 @@
     gap: 70px;
 }
 .titulo{
-  background-color: black;
   width: 200px;
-  margin-left: 31rem;
-  border: solid;
-  border-width: 1px;
-  border-color: white;
-  font-size: 1.9rem;
+  text-decoration: underline;
+  font-size: 2.5rem;
+  color:white;
+  text-decoration-color: yellow;
+  margin-left: 230px;
 }
   .lista{
     text-align: start;
@@ -44,29 +43,30 @@
     border: solid;
     border-width: 1px;
     border-color: white;
-    height: 400px;
+    height: 430px;
     width: 1160px;
     background-color: black;
+    margin-bottom: 20px;
   }
   .image{
-    src: url('./img/proyecto\ individual.png');
     background-image: url('./img/proyecto\ individual.png');
+    background-size: cover;
     height: 333px;
-    width: 50rem;
+    width: 700px;
     float: right;
     background-size: cover;
   }
   .rym{
     background-image: url('./img/rick\ and\ morty.png');
     height: 333px;
-    width: 50rem;
+    width: 600px;
     float: right;
     background-size: cover;
   }
   .pf{
     background-image: url('./img/pf.png');
     height: 333px;
-    width: 50rem;
+    width: 600px;
     float: right;
     background-size: cover;
   }

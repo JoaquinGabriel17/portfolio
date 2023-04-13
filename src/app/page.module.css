@@ -2,19 +2,37 @@
   display: flex;
   justify-content: center;
   font-family: monospace;
+  text-align: start;
+  margin: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.botonCV{
+  color: yellow;
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.botonCV:hover{
+  text-decoration: underline;
+  color: black;
 }
 .principal{
-  background-color: black;
-  border: solid;
-  border-width: 1px;
-  border-color: white;
-  opacity: .9;
+  /* background-color: black;} */
+  /* border: solid; */
+  /* border-width: 1px; */
+  /* border-color: white; */
+  /* opacity: .9; */
   color: white;
   width: 68rem;
   /* margin-left: 12.7rem; */
   height: 17rem;
-  padding: 3rem;
-  text-align: center
+  /* padding: 4rem; */
+  /* padding-left: 16rem; */
+  /* padding-right: 16rem; */
+  height: 19rem;
+  /* width: 500px; */
+
 }
 .link{
   height: 2rem;
@@ -24,7 +42,10 @@
   width: 2rem;
 }
 .titulo{
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 0;
 }
 .contacto{
   display: flex;

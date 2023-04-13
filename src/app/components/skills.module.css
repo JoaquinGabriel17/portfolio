@@ -1,0 +1,106 @@
+.skill{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.titulo{
+    width: 200px;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    color:white;
+    text-decoration-color: yellow;
+}
+.titula{
+    background-color: black;
+    width: 200px;
+    margin-left: 260px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 1.9rem;
+  }
+.card{
+    width: 144px;
+    height: 170px;
+    box-shadow: 1px 1.5px 1.5px 1px black;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    transition-duration: .5s;
+    width: 164px;
+    height: 176px;
+    justify-content: center;
+    align-items: center;
+}
+    
+.icon1{
+    background-image: url('../icons/icons8-css3-144.png');
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon2{
+    background-image: url('../icons/icons8-javascript-144.png');
+    background-repeat: no-repeat;
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .icon3{
+    background-image: url('../icons/icons8-html-5-144.png');
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon4{
+    background-image: url('../icons/icons8-postgresql-144.png');
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon5{
+    background-image: url('../icons/icons8-reaccionar-144.png');
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon6{
+    background-image: url('../icons/nextjs_icon_132160.png');
+    width: 128px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon7{
+    background-image: url('../icons/icons8-git-144.png');
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon8{
+    background-image: url('../icons/icons8-node-js-144.png');
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.tech{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.soft{
+    text-align: start;
+}

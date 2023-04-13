@@ -1,36 +1,62 @@
 .header{
-    background-color: black;
     height: 68px;
     align-items: center;
     justify-content: center;
     display: flex;
     color: white;
-    width: 1200px;
-    margin-left: 20px;
+
     margin-bottom: 40px;
-    margin-top: 20px;
+    
+}
+.logo{
+    background-image: url('https://manage.wix.com/_serverless/brand-maker/api/v1/design/7081ab63-500e-4d1b-9ddf-3640226b8561/preview-redirect?preset=thumbnail');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
 }
 .naviagtion{
     /* padding: 4px; */
-    background-color: black;
+    background-color: #6a89cc;
+    position: fixed;
     color: white;
-    border: solid;
-    border-width: 1.4px;
-    border-color: white;
-    width: 1200px;
+    width: 212vh;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-right: 20px;
     /* margin-left: 20px; */
     /* margin-right: 20px; */
     font-family: monospace;
+    list-style: none;
+    top: 0;
+    transition: 0.5s;
 
 }
+.boton{
+    background-color: black;
+    opacity: .7;
+    color: white;
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 1rem;
+}
+.boton:hover{
+    opacity: 1;
+    color: yellow;
+}
 .link{
+    list-style: none;
     font-size: 2rem;
     text-decoration: none;
     color: white;
 }
 .link:hover{
     text-decoration: underline;
+}
+.logo{
+    line-height: 70px;
+    margin: 0 30px;
 }

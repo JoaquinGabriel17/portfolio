@@ -4,30 +4,30 @@
     /* gap: 20px; */
     color: white;
     font-family: monospace;
+    text-align: start;
 }
 .educacion{
     border: solid;
     border-color: white;
-    background-color: black;
-    opacity: .8;
+    /* background-color: black; */
+    /* opacity: .8; */
     border-width: 1px;
-    padding: 10px;
-    width: 550px;
+    /* padding: 10px; */
+    /* width: 550px; */
 }
 .contain{
     font-family: monospace;
-    text-align: center;
+    text-align: start;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .title{
     text-decoration: underline;
 }
 .titulo{
-    background-color: black;
     width: 200px;
-    margin-left: 31rem;
-    border: solid;
-    border-width: 1px;
-    border-color: white;
-    font-size: 1.9rem;
-    
+    text-decoration: underline;
+    font-size: 2.5rem;
+    color:white;
+    text-decoration-color: yellow;
 }
