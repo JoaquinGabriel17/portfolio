@@ -8,6 +8,10 @@
     margin-bottom: 40px;
     
 }
+.icono{
+    height: 60px;
+    width: 60px;
+}
 .logo{
     background-image: url('https://manage.wix.com/_serverless/brand-maker/api/v1/design/7081ab63-500e-4d1b-9ddf-3640226b8561/preview-redirect?preset=thumbnail');
     width: 60px;
@@ -16,7 +20,7 @@
 }
 .naviagtion{
     /* padding: 4px; */
-    background-color: #6a89cc;
+    background-color:darkslategray;
     position: fixed;
     color: white;
     width: 212vh;
@@ -34,7 +38,6 @@
 }
 .boton{
     background-color: black;
-    opacity: .7;
     color: white;
     height: 30px;
     width: 110px;

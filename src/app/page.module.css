@@ -8,14 +8,17 @@
   padding-right: 200px;
 }
 .botonCV{
-  color: yellow;
+  color: white;
+  background-color: black;
   font-size: 1.6rem;
   cursor: pointer;
   margin-top: 70px;
+  height: 40px;
+  width: 250px;
 }
 .botonCV:hover{
-  text-decoration: underline;
-  color: black;
+  /* text-decoration: underline; */
+  color: yellow;
 }
 .principal{
   /* background-color: black;} */

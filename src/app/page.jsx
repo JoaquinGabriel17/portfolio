@@ -6,9 +6,6 @@ import styles from './page.module.css'
 
 export default function Inicio() {
 
-  function redir (){
-    redirect("https://docs.google.com/document/d/1e0N9N7W-nonX_WQOkqq902v4x7ticOlaN2rKp5lsnTI/edit")
-  }
 
   return (
     <div className={styles.home} >
@@ -32,15 +29,15 @@ export default function Inicio() {
       <h2 className={styles.contacto} >Mis redes:</h2> 
       <div className={styles.link} >
         
-        <a className={styles.link} href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
-          <img className={styles.icono} src='https://cdn-icons-png.flaticon.com/512/174/174857.png' alt="linkedin" ></img>
-        </a>
+       
       </div>
       </div>
       </div> */}
       <div style={{width: "300px", marginLeft: "250px", marginTop: "20px"}} >
        
-        <a className={styles.botonCV} href='https://drive.google.com/file/d/1f3pVwF_jqAPOjctcjVu2HQ3vrMdH7JE-/view' style={{color: "white", textDecoration: "none"}} >Mira mi Curriculum</a>
+        <a  href='https://drive.google.com/file/d/1f3pVwF_jqAPOjctcjVu2HQ3vrMdH7JE-/view' >
+          <button  className={styles.botonCV} >Mira mi Curriculum</button>
+        </a>
       
       </div>
       </div>
