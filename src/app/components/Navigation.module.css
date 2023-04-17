@@ -8,9 +8,53 @@
     margin-bottom: 40px;
     
 }
+.redes{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+}
+.none{
+    display: none;
+}
+.redesul{
+    margin: 0px;
+    margin-top: 65px;
+    padding: 0px;
+    /* height: 49px; */
+    width: 180px;
+    outline: none;
+    cursor: pointer;
+    /* border: solid; */
+    /* border-width: 1px; */
+    /* border-color: yellow; */
+    line-height: 50px;
+    font-size: inherit;
+    position: absolute;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    /* border-radius: 500px; */
+    /* overflow: hidden; */
+    background-color: black;
+    /* color: yellow; */
+    text-align: center;
+    list-style: none;
+}
 .icono{
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
+  }
+
+.redes li {
+    background-color: yellow;
+    color: yellow;
+    padding-top: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    /* border-radius: 10px; */
 }
 .logo{
     background-image: url('https://manage.wix.com/_serverless/brand-maker/api/v1/design/7081ab63-500e-4d1b-9ddf-3640226b8561/preview-redirect?preset=thumbnail');
@@ -20,7 +64,7 @@
 }
 .naviagtion{
     /* padding: 4px; */
-    background-color:darkslategray;
+    background-color:black;
     position: fixed;
     color: white;
     width: 212vh;
@@ -36,20 +80,67 @@
     transition: 0.5s;
 
 }
-.boton{
-    background-color: black;
-    color: white;
-    height: 30px;
-    width: 110px;
+.boton {
+    outline: none;
     cursor: pointer;
-    border-radius: 4px;
-    font-family: monospace;
-    font-size: 1rem;
-}
-.boton:hover{
-    opacity: 1;
+    border: solid;
+    border-width: 1px;
+    border-color: yellow;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background-color: yellow;
+    color: black;
+   }
+   
+   .boton span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+   }
+   
+   .boton:hover span {
+    color: black;
+   }
+   
+   .boton::before,
+   .boton::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   .boton::before {
+    content: "";
+    background: black;
+    color: yellow;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   .boton:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+.pan{
     color: yellow;
 }
+.pan:hover{
+    color: black;
+}
+   
 .link{
     list-style: none;
     font-size: 2rem;

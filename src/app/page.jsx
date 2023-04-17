@@ -33,11 +33,15 @@ export default function Inicio() {
       </div>
       </div>
       </div> */}
-      <div style={{width: "300px", marginLeft: "250px", marginTop: "20px"}} >
+      <div className={styles.contact} style={{width: "300px", marginLeft: "270px", marginTop: "70px"}} >
        
         <a  href='https://drive.google.com/file/d/1f3pVwF_jqAPOjctcjVu2HQ3vrMdH7JE-/view' >
-          <button  className={styles.botonCV} >Mira mi Curriculum</button>
+          <button  className={styles.botonCV} >Curriculum</button>
         </a>
+       
+              
+              
+
       
       </div>
       </div>
