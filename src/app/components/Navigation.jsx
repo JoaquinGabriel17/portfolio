@@ -5,9 +5,9 @@ import { useState } from 'react'
 
 
 const links = [
-    {   label: 'Sobre mi', route: 'about' },
-    { label: 'Habilidades', route: 'skill'},
-    { label: 'Proyectos', route: 'proyecto' },
+    {   label: 'Sobre mi', route: 'Sobre mi' },
+    { label: 'Habilidades', route: 'Habilidades'},
+    { label: 'Proyectos', route: 'Proyectos' },
   ]
   let b = 0
 
@@ -41,9 +41,11 @@ export function Navigation ()  {
 
   function redir(e){
     if(typeof window !== 'undefined'){
-      if(e.target.value === 'proyecto') window.scrollTo(0,1800)
-      if(e.target.value === 'about') window.scrollTo(0,500)
-      if(e.target.value === 'skill') window.scrollTo(0,790)
+      if(e.target.value === undefined) e.target.value = e.target.innerHTML
+      if(e.target.value === 'Proyectos') window.scrollTo(0,1800)
+      if(e.target.value === 'Sobre mi') window.scrollTo(0,500)
+      if(e.target.value === 'Habilidades') window.scrollTo(0,790)
+      console.log(e.target.value)
       navo.style.top = '-100px'
       b = 1
       
