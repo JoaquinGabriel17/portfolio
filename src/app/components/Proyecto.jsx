@@ -4,6 +4,7 @@ import { useState } from 'react'
 import pi from './img/proyecto individual.png'
 import rym from './img/rick and morty.png'
 import Link from 'next/link'
+import pf from './img/pf.png'
 export function Proyecto(){
     const [mostrar, setMostrar] = useState(false)
     const [ mostrar1, setMostrar1 ] = useState(false)
@@ -19,10 +20,17 @@ export function Proyecto(){
             <h1 className={styles.titulo} >Proyectos</h1>
         <div className={styles.proyecto} >
 
-        <div className={styles.single} >
-            <h2 style={{textDecoration: "underline"}} >Rosa del viento</h2>
-            <div className={styles.pf} ></div>
-            <Link href='https://p-fhenry-front.vercel.app/' className={styles.link} >Visitá esta página</Link>
+        {/* <div className={styles.single} >
+            
+            </div> */}
+            <div className={styles.flipcard}>
+    <div className={styles.flipcardinner}>
+        <div className={styles.flipcardfront}>
+        </div>
+        <div className={styles.flipcardback} style={{backgroundImage:{pf}}} >
+        <h2 style={{textDecoration: "underline"}} >Rosa del viento</h2>
+            {/* <div className={styles.pf} ></div> */}
+            <Link href='https://pfhenryfront.vercel.app/' className={styles.link} >Visitá esta página</Link>
             <h2>Descripción</h2>
             <div style={{padding: "10px"}} >
 
@@ -46,12 +54,19 @@ export function Proyecto(){
             <br></br>
             
             </div>
-            </div>
+        </div>
+    </div>
+</div>
 
-            <div className={styles.single}  >
-            <h2 style={{textDecoration: "underline"}} >Proyecto Individual (Henry)</h2>
-            {/* <img src={pi} style={{"height": "8rem", "width": "20rem"}} alt="PI" /> */}
-            <div className={styles.image} ></div>
+             {/* <div className={styles.single}  >
+                   
+            </div>  */}
+            <div className={styles.flipcard}>
+    <div className={styles.flipcardinner}>
+        <div className={styles.flipcardfrontf}>
+        </div>
+        <div className={styles.flipcardback}>
+        <h2 style={{textDecoration: "underline"}} >Proyecto Individual (Henry)</h2>
             <h2>Descripcion</h2>
             <p style={{fontSize: "1rem"}} >Aplicacion de recetas que hace peticiones a una API con mas de 15000 recetas
                 , a demas de contar con recetas en una base de datos en donde se pueden almacenar
@@ -65,21 +80,10 @@ export function Proyecto(){
                 <li>Ordenamiento alfabetico</li>
                 <li>Formulario controlado para crear recetas</li>
             </ul>
-: ''}
-            {/* </div>
-            <div className={styles.single} >
-            <h2 style={{textDecoration: "underline"}} >Rick and Morty</h2>
-            <div className={styles.rym} ></div>
-            <button className={styles.boton} onClick={show} value='rym' >Funciones</button>
-            { mostrar ? 
-            <ul className={styles.lista}>
-                <li>Busqueda por nombre y por ID</li>
-                <li>Filtros</li>
-                <li>Ordenamiento alfabetico</li>
-                <li>Formulario controlado de inicio de sesion</li>
-            </ul> : '' }*/}
-            
-            </div> 
+: ''} 
+        </div>
+    </div>
+</div>
         </div>
         </div>
     )

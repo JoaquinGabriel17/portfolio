@@ -19,8 +19,9 @@
     width: 200px;
     margin-left: 260px;
     border: solid;
-    border-width: 1px;
-    border-color: white;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 1rem;
     font-size: 1.9rem;
   }
 .card{

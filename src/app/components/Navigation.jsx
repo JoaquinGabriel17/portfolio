@@ -64,6 +64,7 @@ function showRedes(){
             <div className={styles.redes} >
               <button className={styles.boton} onClick={showRedes} ><span className={styles.pan} >{redes ? 'Mis redes ↑' : 'Mis redes ⬇'}</span></button>
               <ul className={redes ? styles.redesul : styles.none}  >
+              {/* <ul className={styles.none}  > */}
                 <li>
                   <a  style={{width: "60px",margin: '0 10px'}} href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
                   <img className={styles.icono} src='https://cdn-icons-png.flaticon.com/512/174/174857.png' alt="linkedin" ></img>
