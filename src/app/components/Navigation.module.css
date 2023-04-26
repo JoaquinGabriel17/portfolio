@@ -8,11 +8,21 @@
     margin-bottom: 40px;
     
 }
+
+@font-face {
+    font-family: 'Allura';
+    src: url('../icons/Allura-Regular.ttf');
+    font-weight: 400;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 .redes{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-right: 300px;
+    margin-top: 3px;
+    margin-left: 30px;
+    /* position: fixed; */
+    /* margin-right: 300px; */
 }
 .none{
     display: none;
@@ -22,7 +32,7 @@
     margin-top: 65px;
     padding: 0px;
     /* height: 49px; */
-    width: 180px;
+    width: 152px;
     outline: none;
     cursor: pointer;
     /* border: solid; */
@@ -42,24 +52,36 @@
     text-align: center;
     list-style: none;
 }
+.allura{
+font-family: 'Allura',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 1;
+    margin: 0;
+    margin-right: 120px;
+    margin-top: 10px;
+    /* line-height: 40px; */
+}
 .icono{
     height: 40px;
     width: 40px;
+    float: initial;
   }
 
 .redes li {
-    background-color: yellow;
+    background-color: white;
     color: yellow;
     padding-top: 10px;
     border: solid;
     border-color: black;
+    margin: 0;
     border-width: 2px;
+    width: 148px;
     /* border-radius: 10px; */
 }
 .logo{
-    background-image: url('https://manage.wix.com/_serverless/brand-maker/api/v1/design/7081ab63-500e-4d1b-9ddf-3640226b8561/preview-redirect?preset=thumbnail');
-    width: 60px;
-    height: 60px;
+    background-image: url('../icons/Joaquin\ Ocampo\ \(3\).png');
+    width: 160px;
+    height: 160px;
     background-size: cover;
 }
 .naviagtion{
@@ -70,7 +92,7 @@
     width: 212vh;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content:end;
     padding-right: 20px;
     /* margin-left: 20px; */
     /* margin-right: 20px; */
@@ -80,66 +102,63 @@
     transition: 0.5s;
 
 }
+/* From uiverse.io by @Ali-Tahmazi99 */
 .boton {
-    outline: none;
-    cursor: pointer;
-    border: solid;
-    border-width: 1px;
-    border-color: yellow;
-    padding: 0.9rem 2rem;
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    position: relative;
     display: inline-block;
-    letter-spacing: 0.05rem;
-    font-weight: 700;
-    font-size: 17px;
-    border-radius: 500px;
-    overflow: hidden;
-    background-color: yellow;
-    color: black;
-   }
-   
-   .boton span {
+    width: 150px;
+    height: 50px;
+    /* border-radius: 10px; */
+    /* border: 1px solid #03045e; */
     position: relative;
-    z-index: 10;
-    transition: color 0.4s;
-   }
-   
-   .boton:hover span {
-    color: black;
+    overflow: hidden;
+    font-family: monospace;
+    transition: all 0.5s ease-in;
+    border: 0;
+    
+    z-index: 1;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
    }
    
    .boton::before,
    .boton::after {
+    content: '';
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    z-index: 0;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
    }
    
    .boton::before {
-    content: "";
-    background: black;
-    color: yellow;
-    width: 120%;
-    left: -10%;
-    transform: skew(30deg);
-    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+    left: -10px;
+    background: yellow;
    }
    
-   .boton:hover::before {
-    transform: translate3d(100%, 0, 0);
+   .boton::after {
+    right: -10px;
+    background: yellow;
    }
-.pan{
-    color: yellow;
-}
-.pan:hover{
+   
+   .boton:hover::before,
+   .boton:hover::after {
+    width: 58%;
+   }
+   
+   .boton:hover span {
     color: black;
-}
+    transition: 0.3s;
+   }
+   
+   .boton span {
+    color: yellow;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
    
 .link{
     list-style: none;
@@ -154,3 +173,61 @@
     line-height: 70px;
     margin: 0 30px;
 }
+.botoncv {
+    margin-top: 14px;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    /* border-radius: 10px; */
+    /* border: 1px solid #03045e; */
+    position: relative;
+    overflow: hidden;
+    font-family: monospace;
+    transition: all 0.5s ease-in;
+    border-color: transparent;
+    /* border: solid 1px yellow; */
+    
+    z-index: 1;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+   }
+   
+   .botoncv::before,
+   .botoncv::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .botoncv::before {
+    left: -10px;
+    background: yellow;
+   }
+   
+   .botoncv::after {
+    right: -10px;
+    background: yellow;
+   }
+   
+   .botoncv:hover::before,
+   .botoncv:hover::after {
+    width: 58%;
+   }
+   
+   .botoncv:hover span {
+    color: black;
+    transition: 0.3s;
+   }
+   
+   .botoncv span {
+    color: yellow;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+   }

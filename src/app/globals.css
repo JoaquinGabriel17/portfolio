@@ -4,13 +4,14 @@ body{
   padding-right: 60px; */
   margin-left: 92px;
   margin-right: 92px;
-  background: rgb(0, 0, 0, .6);
+  background: rgb(0, 0, 0, .8);
   
   /* background-image: url('/portfolio2/src/app/proyecto/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg'); */
   /* padding-left: 200px; */
   /* padding-right: 200px; */
   gap: 30px;
   color: white;
+  /* padding: 0; */
   
   display: flex;
   flex-direction: column;

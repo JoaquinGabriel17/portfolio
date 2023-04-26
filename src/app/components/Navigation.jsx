@@ -43,8 +43,8 @@ export function Navigation ()  {
     if(typeof window !== 'undefined'){
       if(e.target.value === undefined) e.target.value = e.target.innerHTML
       if(e.target.value === 'Proyectos') window.scrollTo(0,1800)
-      if(e.target.value === 'Sobre mi') window.scrollTo(0,500)
-      if(e.target.value === 'Habilidades') window.scrollTo(0,790)
+      if(e.target.value === 'Sobre mi') window.scrollTo(0,450)
+      if(e.target.value === 'Habilidades') window.scrollTo(0,890)
       console.log(e.target.value)
       navo.style.top = '-100px'
       b = 1
@@ -60,13 +60,17 @@ function showRedes(){
         <header className={styles.header} >
           
           <nav className={styles.naviagtion} style={{top: "0"}} id='navo' >
-            <div className={styles.logo} ></div>
+            {/* <div className={styles.logo} ></div> */}
+            <h1 className={styles.allura} >Joaquín Ocampo</h1>
+            <a  href='https://drive.google.com/file/d/1f3pVwF_jqAPOjctcjVu2HQ3vrMdH7JE-/view' >
+          <button  className={styles.botoncv} ><span>Currículum</span></button>
+        </a>
             <div className={styles.redes} >
-              <button className={styles.boton} onClick={showRedes} ><span className={styles.pan} >{redes ? 'Mis redes ↑' : 'Mis redes ⬇'}</span></button>
+              <button className={styles.boton}  onClick={showRedes} ><span className={styles.pan} >{redes ? 'Mis redes ↑' : 'Mis redes ⬇'}</span></button>
               <ul className={redes ? styles.redesul : styles.none}  >
               {/* <ul className={styles.none}  > */}
                 <li>
-                  <a  style={{width: "60px",margin: '0 10px'}} href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
+                  <a  href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
                   <img className={styles.icono} src='https://cdn-icons-png.flaticon.com/512/174/174857.png' alt="linkedin" ></img>
                   </a>
                 </li>
@@ -77,6 +81,7 @@ function showRedes(){
                 </li>
               </ul>
             </div>
+            
             <ul style={{"display": "flex", "justifyContent": "space-between", "gap": "43px", listStyle: "none"}} >
               {links.map(({label, route}) => {
                 return(
@@ -86,6 +91,7 @@ function showRedes(){
                 )
               })}
             </ul>
+            
           </nav>
         </header>
     )

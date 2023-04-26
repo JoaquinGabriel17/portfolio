@@ -23,24 +23,34 @@ export function Proyecto(){
         {/* <div className={styles.single} >
             
             </div> */}
-            <div className={styles.flipcard}>
-    <div className={styles.flipcardinner}>
-        <div className={styles.flipcardfront}>
-        </div>
-        <div className={styles.flipcardback} style={{backgroundImage:{pf}}} >
+            <div className={styles.card}>
+    
+        <div className={styles.card2} style={{backgroundImage:{pf}}} >
         <h2 style={{textDecoration: "underline"}} >Rosa del viento</h2>
-            {/* <div className={styles.pf} ></div> */}
-            <Link href='https://pfhenryfront.vercel.app/' className={styles.link} >Visitá esta página</Link>
-            <h2>Descripción</h2>
-            <div style={{padding: "10px"}} >
+            <div className={styles.pf} ></div>
+            {/* <Link  className={styles.link} >Visitá esta página</Link> */}
+            <div className={styles.buttoncontain} >
+                <a href='https://p-fhenry-front.vercel.app/' >
+                    <button className={styles.cardbutton} >
+                        <span>Demostracion</span>
+                    </button>
+                </a>
+                <a href='https://github.com/Rytahsy2378723/PFhenryBack' >
+                    <button className={styles.cardbutton} >
+                        <span>Repositorio</span>
+                    </button>
+                </a>
+            </div>
+            {/* <h2>Descripción</h2> */}
+            {/* <div style={{padding: "10px"}} > */}
 
-            <p style={{fontSize: "1rem"}} >Aplicación sobre un Restaurante en el cual se pueden pedir comidas
+            {/* <p style={{fontSize: "1rem"}} >Aplicación sobre un Restaurante en el cual se pueden pedir comidas
                 tipicas de Argentina, España y México solo si estas registrado, a demas cuenta
                 con filtros combinados para facilitar la busqueda del usuario, pasarela de pagos y
                 un sistema de reservas con diseño 3D!
-            </p>
-            <button className={styles.boton} onClick={show} value='pf' >Funciones</button>
-            { mostrar2 ? 
+            </p> */}
+            {/* <button className={styles.boton} onClick={show} value='pf' >Funciones</button> */}
+            {/* { mostrar2 ? 
             <ul className={styles.lista} >
                 <li>Pasarela de pago (mercadopago)</li>
                 <li>Filtros y Ordenamiento alfabetico</li>
@@ -48,26 +58,32 @@ export function Proyecto(){
                 <li>Logeo con Github</li>
                 <li>Reservas con animacion 3D</li>
                 <li>Dashboard para administradores</li>
-            </ul> : ''}
-            <br></br>
-            <br></br>
-            <br></br>
+            </ul> : ''} */}
             
-            </div>
+            {/* </div> */}
         </div>
-    </div>
 </div>
 
              {/* <div className={styles.single}  >
                    
             </div>  */}
-            <div className={styles.flipcard}>
-    <div className={styles.flipcardinner}>
-        <div className={styles.flipcardfrontf}>
-        </div>
-        <div className={styles.flipcardback}>
+            <div className={styles.card}>
+        <div className={styles.card2}>
         <h2 style={{textDecoration: "underline"}} >Proyecto Individual (Henry)</h2>
-            <h2>Descripcion</h2>
+        <div className={styles.rym} ></div>
+        <div className={styles.buttoncontain} >
+                <a >
+                    <button className={styles.cardbutton7} >
+                        <span>Demostracion</span>
+                    </button>
+                </a>
+                <a href='https://github.com/JoaquinGabriel17/PI-Food-main' >
+                    <button className={styles.cardbutton} >
+                        <span>Repositorio</span>
+                    </button>
+                </a>
+            </div>
+            {/* <h2>Descripcion</h2>
             <p style={{fontSize: "1rem"}} >Aplicacion de recetas que hace peticiones a una API con mas de 15000 recetas
                 , a demas de contar con recetas en una base de datos en donde se pueden almacenar
                 recetas creadas.
@@ -80,11 +96,11 @@ export function Proyecto(){
                 <li>Ordenamiento alfabetico</li>
                 <li>Formulario controlado para crear recetas</li>
             </ul>
-: ''} 
+: ''}  */}
         </div>
     </div>
 </div>
         </div>
-        </div>
+
     )
 }

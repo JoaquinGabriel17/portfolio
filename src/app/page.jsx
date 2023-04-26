@@ -10,13 +10,11 @@ export default function Inicio() {
   return (
     <div className={styles.home} >
     <div className={styles.principal} >
-      <h2 style={{margin: "0"}} >Hola, mi nombre es</h2>
-      <h1 className={styles.titulo} >Joaquín Ocampo</h1>
-      <h1 style={{"fontSize": "2.5rem","color": "yellow", "margin": "0"}} >Soy un Desarrollador full stack</h1>
-      <p style={{"fontSize": "1.2rem", "margin": "0"}} >graduado en Henry, 
-        donde he usado tecnologías como React, Express, etc. Constantenmente estoy buscando 
-        conocimientos nuevos al igual que experiencia. Disfrutando de mi viaje por el mundo
-        del desarrollo web.
+      {/* <h2 style={{margin: "0"}} >Hola, mi nombre es</h2> */}
+      <h1 className={styles.titulo} style={{width:"400px"}} >Desarrollador Full stack</h1>
+      {/* <h1 style={{"fontSize": "2.5rem","color": "yellow", "margin": "0"}} >Soy un Desarrollador full stack</h1> */}
+      <p style={{"fontSize": "1.2rem", "margin": "0"}} >
+        Con experiencia en tecnologías como React, Next.js, Angular, Typescript, Bootstrap y Vue; Node, Express y PostgreSQL.
       </p>
      
        {/* <div className={styles.contacto} >
@@ -35,9 +33,7 @@ export default function Inicio() {
       </div> */}
       <div className={styles.contact} style={{width: "300px", marginLeft: "270px", marginTop: "70px"}} >
        
-        <a  href='https://drive.google.com/file/d/1f3pVwF_jqAPOjctcjVu2HQ3vrMdH7JE-/view' >
-          <button  className={styles.botonCV} >Curriculum</button>
-        </a>
+       
        
               
               

@@ -7,10 +7,12 @@ export function Perfil() {
             <h1 className={styles.titulo} >Sobre mi</h1>
         <div className={styles.perfil} >
             <p style={{fontSize: "1.2rem"}} >
-                Desde chico jugando videojuegos me familiarize con la tecnología, siguiendo por el mismo camino
-                estudié 1 año de programación en la Universidad Nacional de Salta, para luego apostar por Henry,
-                donde me gradué como Full Stack Developer y adquirí muchos conocimientos. Disfruto de programar
-                al igual que de estudiar historia
+                Mi nombre es Joaquín Ocampo, tengo 20 años de edad, siempre me intereso la tecnología por lo que en 2022 empecé a cursar
+                Programación en la Universidad Nacional de Salta. En diciembre de ese año decidí cursar la carrera de full stack developer 
+                el Henry bootcamp del cual me gradué en abril de 2023.
+                <br></br>
+                Trabajé en proyectos de desarrollo web como un e-commerce para un restaurante, realizado con un grupo de 7 personas en el
+                bootcamp y una aplicación de recetas
             </p>
             
             {/* <div className={styles.educacion} >

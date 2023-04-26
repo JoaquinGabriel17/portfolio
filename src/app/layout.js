@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html className='primer' lang="en">
     
       <body>
-        
+      
         <Navigation></Navigation>
         {/* <marquee style={{color: "red", backgroundColor: "white", fontSize: "2rem"}} >layout principal</marquee> */}
         {children}

@@ -6,8 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction:row;
+    flex-wrap: wrap;
     gap: 70px;
+    margin-bottom: 100px;
 }
 .titulo{
   width: 200px;
@@ -57,16 +59,16 @@
     background-size: cover;
   }
   .rym{
-    background-image: url('./img/rick\ and\ morty.png');
-    height: 333px;
-    width: 600px;
+    background-image: url('./img/proyecto\ individual.png');
+    height: 200px;
+    width: 290px;
     float: right;
     background-size: cover;
   }
   .pf{
     background-image: url('./img/pf.png');
-    height: 333px;
-    width: 600px;
+    height: 200px;
+    width: 290px;
     float: right;
     background-size: cover;
   }
@@ -78,14 +80,6 @@
   .link:hover{
     text-decoration: underline;
   }
-  .flipcard {
-    background-color: transparent;
-    /* background-image: url('./img/proyecto\ individual.png'); */
-    height: 430px;
-    width: 1160px;
-    perspective: 1000px;
-    font-family: sans-serif;
-  }
   
   .title {
     font-size: 1.5em;
@@ -94,52 +88,65 @@
     margin: 0;
   }
   
-  .flipcardinner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flipcard:hover .flipcardinner {
-    transform: rotateY(180deg);
-  }
-  
-  .flipcardfront, .flipcardback, .flipcardfrontf {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-    position: absolute;
+  .card {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(163deg, #ea5358 0%, #f7ba2b 100%);
+    /* border-radius: 20px; */
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: ; */
+   }
+   
+   .card2 {
+    /* border-radius: 20px; */
+    width: 290px;
+    height: 290px;
+    background-color: #1a1a1a;
+    /* border-radius:20px; */
+    transition: all .2s;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid coral;
-    border-radius: 1rem;
-  }
-  
-  .flipcardfront {
-    /* background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-       rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%); */
-    background-image: url('./img/pf.png');
-    background-size: cover;
-    color: coral;
-  }
-  .flipcardfrontf {
-    /* background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-       rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%); */
-    background-image: url('./img/proyecto\ individual.png');
-    background-size: cover;
-    color: coral;
-  }
-  
-  .flipcardback {
-    /* background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-       bisque 40%, rgb(255, 185, 160) 78%); */
-    background-color: black;
-    color: white;
-    transform: rotateY(180deg);
-  }
+   }
+   
+   /* .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   } */
+
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px #ea5358;
+   }
+   .cardbutton{
+    background-color: #1a1a1a;
+    border: solid 1px #ea5358;
+    color: #ea5358;
+    height: 35px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: monospace;
+    /* border-radius: 14px; */
+   }
+   .cardbutton:hover{
+    border-color: #f7ba2b;
+    color: #f7ba2b;
+   }
+   .buttoncontain{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 13px; */
+   }
+   .cardbutton7{
+    background-color: #1a1a1a;
+    border: solid 1px gray;
+    color: gray;
+    height: 35px;
+    font-size: 1.2rem;
+    /* cursor: pointer; */
+    font-family: monospace;
+    /* border-radius: 14px; */
+   }
+   
