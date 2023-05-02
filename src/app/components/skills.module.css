@@ -5,6 +5,7 @@
     flex-direction: column;
     padding-left: 0px;
     padding-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
 
@@ -28,7 +29,7 @@
   }
 .card{
     width: 144px;
-    height: 170px;
+    height: 190px;
     box-shadow: 1px 1.5px 1.5px 1px black;
     background-color: #181818;
     padding-bottom: 5px;

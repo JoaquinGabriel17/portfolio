@@ -25,7 +25,7 @@ export function Proyecto(){
             </div> */}
             <div className={styles.card}>
     
-        <div className={styles.card2} style={{backgroundImage:{pf}}} >
+        <div className={styles.card2}  >
         <h2 style={{textDecoration: "underline"}} >Rosa del viento</h2>
             <div className={styles.pf} ></div>
             {/* <Link  className={styles.link} >Visitá esta página</Link> */}

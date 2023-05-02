@@ -1,6 +1,7 @@
 'use client'
 import { redirect } from 'next/dist/server/api-utils'
 import styles from './page.module.css'
+// import pic from '../app/icons/UN\ OCAMPO'
 
 
 
@@ -11,7 +12,9 @@ export default function Inicio() {
     <div className={styles.home} >
     <div className={styles.principal} >
       {/* <h2 style={{margin: "0"}} >Hola, mi nombre es</h2> */}
+      <div className={styles.image} ></div>
       <h1 className={styles.titulo} style={{width:"400px"}} >Desarrollador Full stack</h1>
+      
       {/* <h1 style={{"fontSize": "2.5rem","color": "yellow", "margin": "0"}} >Soy un Desarrollador full stack</h1> */}
       <p style={{"fontSize": "1.2rem", "margin": "0"}} >
         Con experiencia en tecnologías como React, Next.js, Angular, Typescript, Bootstrap y Vue; Node, Express y PostgreSQL.

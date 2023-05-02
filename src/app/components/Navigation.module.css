@@ -96,7 +96,7 @@ font-family: 'Allura',sans-serif;
     padding-right: 20px;
     /* margin-left: 20px; */
     /* margin-right: 20px; */
-    font-family: monospace;
+    /* font-family: monospace; */
     list-style: none;
     top: 0;
     transition: 0.5s;
@@ -111,7 +111,7 @@ font-family: 'Allura',sans-serif;
     /* border: 1px solid #03045e; */
     position: relative;
     overflow: hidden;
-    font-family: monospace;
+    /* font-family: monospace; */
     transition: all 0.5s ease-in;
     border: 0;
     
@@ -182,7 +182,7 @@ font-family: 'Allura',sans-serif;
     /* border: 1px solid #03045e; */
     position: relative;
     overflow: hidden;
-    font-family: monospace;
+    /* font-family: monospace; */
     transition: all 0.5s ease-in;
     border-color: transparent;
     /* border: solid 1px yellow; */

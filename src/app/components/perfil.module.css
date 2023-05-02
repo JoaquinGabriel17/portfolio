@@ -3,7 +3,7 @@
     justify-content: space-around;
     /* gap: 20px; */
     color: white;
-    font-family: monospace;
+    /* font-family: monospace; */
     text-align: start;
 }
 .educacion{
@@ -16,7 +16,7 @@
     /* width: 550px; */
 }
 .contain{
-    font-family: monospace;
+    /* font-family: monospace; */
     text-align: start;
     padding-left: 200px;
     padding-right: 200px;

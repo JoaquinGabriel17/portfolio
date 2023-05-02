@@ -2,6 +2,7 @@ import styles from './perfil.module.css'
 
 
 export function Perfil() {
+
     return (
         <div className={styles.contain} >
             <h1 className={styles.titulo} >Sobre mi</h1>
@@ -9,10 +10,26 @@ export function Perfil() {
             <p style={{fontSize: "1.2rem"}} >
                 Mi nombre es Joaquín Ocampo, tengo 20 años de edad, siempre me intereso la tecnología por lo que en 2022 empecé a cursar
                 Programación en la Universidad Nacional de Salta. En diciembre de ese año decidí cursar la carrera de full stack developer 
-                el Henry bootcamp del cual me gradué en abril de 2023.
+                el Henry bootcamp, obtuve conocimientos en las tecnologías mas usadas del mercado superando desafíos cada vez mas complejos,
+                la comunidad de Henry me ayudo mucho, no solo a superar los desafíos, también a expandir mi red de contactos en una creciente
+                comunidad.
                 <br></br>
-                Trabajé en proyectos de desarrollo web como un e-commerce para un restaurante, realizado con un grupo de 7 personas en el
-                bootcamp y una aplicación de recetas
+                <br></br>
+                En el bootcamp realizé diferentes proyectos entre los cuales se destacan un e-commerce para un restaurante y una aplicación
+                de recetas, en Abril de 2023 me gradué como full stack developer.
+                <br></br>
+                <br></br>
+                Siempre me matengo actualizado con las tecnologías que requieren mi trabajo y mis proyectos, expandir mis conocimientos es 
+                esencial para el crecimiento y aumento de valor de mi perfil profesional, uno de mis mayores impulsos y motivaciones es
+                mi pasion por la tecnología y la programación, que me han acompañado a lo largo de mi vida y no han perdido ni un poco de fuerza.
+                <br></br>
+                <br></br>
+                Soy alguien constante y responsable con mis proyectos y trabajo, a la hora de haber problemas, destaco por mi claridad y 
+                capacidad para resolver problemas, modularizandolos para asi simplificar y agilizar la resolución de los mismos. 
+                Tengo mas de 3 años de experiencia trabajando en equipo por lo que he desarrollado liderazgo, inclusión y comunicación para generar un buen
+                ambiente de trabajo.
+                <br></br>
+                
             </p>
             
             {/* <div className={styles.educacion} >

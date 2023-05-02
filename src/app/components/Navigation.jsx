@@ -42,9 +42,9 @@ export function Navigation ()  {
   function redir(e){
     if(typeof window !== 'undefined'){
       if(e.target.value === undefined) e.target.value = e.target.innerHTML
-      if(e.target.value === 'Proyectos') window.scrollTo(0,1800)
-      if(e.target.value === 'Sobre mi') window.scrollTo(0,450)
-      if(e.target.value === 'Habilidades') window.scrollTo(0,890)
+      if(e.target.value === 'Proyectos') window.scrollTo(0,2200)
+      if(e.target.value === 'Sobre mi') window.scrollTo(0,500)
+      if(e.target.value === 'Habilidades') window.scrollTo(0,1450)
       console.log(e.target.value)
       navo.style.top = '-100px'
       b = 1
@@ -86,7 +86,7 @@ function showRedes(){
               {links.map(({label, route}) => {
                 return(
                 <li key={route} >
-                  <button className={styles.boton} onClick={redir} value={route} ><span className={styles.pan} >{label}</span></button>
+                  <button key={route} className={styles.boton} onClick={redir} value={route} ><span className={styles.pan} >{label}</span></button>
                 </li>
                 )
               })}
@@ -96,4 +96,3 @@ function showRedes(){
         </header>
     )
 }
-// export Navigation
