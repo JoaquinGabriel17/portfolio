@@ -62,7 +62,7 @@ function showRedes(){
           <nav className={styles.naviagtion} style={{top: "0"}} id='navo' >
             {/* <div className={styles.logo} ></div> */}
             <h1 className={styles.allura} >Joaquín Ocampo</h1>
-            <a  href='https://drive.google.com/file/d/1f3pVwF_jqAPOjctcjVu2HQ3vrMdH7JE-/view' >
+            <a  href='https://docs.google.com/file/d/1eyUPK82og82Zud9O-7Ibzu3zc2zKchf3/edit#bookmark=id.gjdgxs' >
           <button  className={styles.botoncv} ><span>Currículum</span></button>
         </a>
             <div className={styles.redes} >
