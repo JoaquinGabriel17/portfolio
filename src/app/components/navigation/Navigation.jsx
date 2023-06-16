@@ -63,7 +63,7 @@ function showRedes(){
             {/* <div className={styles.logo} ></div> */}
             <h1 className={styles.allura} >Joaquín Ocampo</h1>
             <div className={styles.botonContain} > 
-            <a  href='https://docs.google.com/file/d/1eyUPK82og82Zud9O-7Ibzu3zc2zKchf3/edit#bookmark=id.gjdgxs' >
+            <a  href='https://flowcv.com/resume/k5qcg8c8oj' >
               
               <Button text="Curriculum" ></Button>
             </a>

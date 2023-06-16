@@ -8,8 +8,8 @@ export function Skills(){
     
     // console.log(css.src)
     return(
-        <div style={{paddingLeft: "100px", paddingRight: "200px"}} >
-            <h1 className={styles.titulo} style={{marginLeft:"95px"}} >Habilidades</h1>
+        <div style={{paddingLeft: "100px", paddingRight: "200px", textAlign: "center"}} >
+            <h1 className={styles.titulo}  >Habilidades</h1>
         <div className={styles.skill} >
         <h1 className={styles.titula} >Tech Skills</h1>
         {/* <h2>Estas son tecnologías con las que trabajé</h2> */}

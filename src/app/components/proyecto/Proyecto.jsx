@@ -20,7 +20,7 @@ export function Proyecto(){
     return(
         <div  className={styles.contain}>
             {/* <Button text="hola" ></Button> */}
-            <h1>Proyectos</h1>
+            <h1 style={{margin: "0px"}} >Proyectos</h1>
         <div className={styles.proyecto} >
 
         {/* <div className={styles.single} >
