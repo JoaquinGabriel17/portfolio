@@ -5,7 +5,7 @@ export function Perfil() {
 
     return (
         <div className={styles.contain} >
-            <h1 className={styles.titulo} >Sobre mi</h1>
+            <h1 className={styles.tita} >Sobre mi</h1>
         <div className={styles.perfil} >
             <p style={{fontSize: "1.2rem"}} >
                 Mi nombre es Joaquín Ocampo, tengo 20 años de edad, siempre me intereso la tecnología por lo que en 2022 empecé a cursar

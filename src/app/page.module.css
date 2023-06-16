@@ -4,8 +4,28 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: start;
   margin: 0;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* background-color: aqua; */
+  background: url('./icons/1997778_269774-P5IRRT-620.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* padding-left: 100px; */
+  /* padding-right: 100px; */
+  /* margin-bottom: 100px; */
+  height: 527px;
+  /* padding-top: 5px; */
+  align-items: center;
+}
+.baco{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  margin: 60px 0 0 0;
+  
+}
+.baco img{
+  position: absolute;
+  width: 100%;
+  height: 400px;
 }
 .image{
   background-image: url('../app/icons/UN\ OCAMPO3.jpg');
@@ -25,9 +45,24 @@
   flex-direction: row;
   gap: 30px;
 }
+.backg{
+  background-image: url('./icons/pexels-pixabay-268533.jpg');
+  position: absolute;
+  width: 100%;
+}
 .principal{
   color: white;
-  width: 68rem;
+  /* background-color: blue; */
+  /* background-image: url('./icons/pexels-pixabay-268533.jpg') ; */
+  /* background-position: absolute; */
+  background:rgba(0, 0, 0, 0.527);
+  /* border-image: linear-gradient(red); */
+  /* backdrop-filter: blur(40px); */
+  /* backdrop-filter: blur(100px); */
+  /* background-color: ; */
+
+  width: 100%;
+  padding: 2px 15px;
   height: 17rem;
   height: 19rem;
 }
@@ -43,6 +78,7 @@
   font-size: 4.5rem;
   font-weight: 700;
   margin: 0;
+  text-decoration: none;
 }
 .contacto{
   display: flex;

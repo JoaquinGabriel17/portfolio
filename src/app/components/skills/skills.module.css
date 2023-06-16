@@ -24,6 +24,7 @@
     border: solid;
     border-width: 2px;
     border-color: yellow;
+    text-decoration: none;
     /* border-radius: 1rem; */
     font-size: 1.9rem;
   }
@@ -44,14 +45,14 @@
 }
     
 .icon1{
-    background-image: url('../icons/icons8-css3-144.png');
+    background-image: url('../../icons/icons8-css3-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
     margin-right: auto;
 }
 .icon2{
-    background-image: url('../icons/icons8-javascript-144.png');
+    background-image: url('../../icons/icons8-javascript-144.png');
     background-repeat: no-repeat;
     width: 144px;
     height: 144px;
@@ -59,7 +60,7 @@
     margin-right: auto;
 }
  .icon3{
-    background-image: url('../icons/icons8-html-5-144.png');
+    background-image: url('../../icons/icons8-html-5-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
@@ -107,49 +108,49 @@
 
     
 .icon4{
-    background-image: url('../icons/icons8-postgresql-144.png');
+    background-image: url('../../icons/icons8-postgresql-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
     margin-right: auto;
 }
 .icon5{
-    background-image: url('../icons/icons8-reaccionar-144.png');
+    background-image: url('../../icons/icons8-reaccionar-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
     margin-right: auto;
 }
 .icon6{
-    background-image: url('../icons/nextjs_icon_132160.png');
+    background-image: url('../../icons/nextjs_icon_132160.png');
     width: 128px;
     height: 128px;
     margin-left: auto;
     margin-right: auto;
 }
 .icon7{
-    background-image: url('../icons/icons8-git-144.png');
+    background-image: url('../../icons/icons8-git-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
     margin-right: auto;
 }
 .icon8{
-    background-image: url('../icons/icons8-node-js-144.png');
+    background-image: url('../../icons/icons8-node-js-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
     margin-right: auto;
 } 
 .icon9{
-    background-image: url('../icons/icons8-typescript-144.png');
+    background-image: url('../../icons/icons8-typescript-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;
     margin-right: auto;
 }
 .icon10{
-    background-image: url('../icons/icons8-angularjs-144.png');
+    background-image: url('../../icons/icons8-angularjs-144.png');
     width: 144px;
     height: 144px;
     margin-left: auto;

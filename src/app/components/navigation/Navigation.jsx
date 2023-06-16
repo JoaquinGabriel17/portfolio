@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import styles from './Navigation.module.css'
 import { useState } from 'react'
-
+import Button from '../button/Button'
 
 const links = [
     {   label: 'Sobre mi', route: 'Sobre mi' },
@@ -43,8 +43,8 @@ export function Navigation ()  {
     if(typeof window !== 'undefined'){
       if(e.target.value === undefined) e.target.value = e.target.innerHTML
       if(e.target.value === 'Proyectos') window.scrollTo(0,2200)
-      if(e.target.value === 'Sobre mi') window.scrollTo(0,500)
-      if(e.target.value === 'Habilidades') window.scrollTo(0,1450)
+      if(e.target.value === 'Sobre mi') window.scrollTo(0,700)
+      if(e.target.value === 'Habilidades') window.scrollTo(0,1400)
       console.log(e.target.value)
       navo.style.top = '-100px'
       b = 1
@@ -62,12 +62,18 @@ function showRedes(){
           <nav className={styles.naviagtion} style={{top: "0"}} id='navo' >
             {/* <div className={styles.logo} ></div> */}
             <h1 className={styles.allura} >Joaquín Ocampo</h1>
+            <div className={styles.botonContain} > 
             <a  href='https://docs.google.com/file/d/1eyUPK82og82Zud9O-7Ibzu3zc2zKchf3/edit#bookmark=id.gjdgxs' >
-          <button  className={styles.botoncv} ><span>Currículum</span></button>
-        </a>
+              
+              <Button text="Curriculum" ></Button>
+            </a>
             <div className={styles.redes} >
-              <button className={styles.boton}  onClick={showRedes} ><span className={styles.pan} >{redes ? 'Mis redes ↑' : 'Mis redes ⬇'}</span></button>
+              {/* <btton className={styles.boton}  onClick={showRedes} ><span className={styles.pan} >{redes ? 'Mis redes ↑' : 'Mis redes ⬇'}</span></button> */}
+              <div onClick={showRedes} className={styles.redo} >
+              <Button onClick={showRedes} text={redes ? 'Mis redes ↑' : 'Mis redes ⬇'} ></Button>
+              </div>
               <ul className={redes ? styles.redesul : styles.none}  >
+                
               {/* <ul className={styles.none}  > */}
                 <li>
                   <a  href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
@@ -82,15 +88,20 @@ function showRedes(){
               </ul>
             </div>
             
-            <ul style={{"display": "flex", "justifyContent": "space-between", "gap": "43px", listStyle: "none"}} >
+            {/* <ul style={{"display": "flex", "justifyContent": "space-between", "gap": "43px", listStyle: "none"}} > */}
               {links.map(({label, route}) => {
                 return(
-                <li key={route} >
-                  <button key={route} className={styles.boton} onClick={redir} value={route} ><span className={styles.pan} >{label}</span></button>
-                </li>
+                // <li key={route} onClick={redir} value={route} >
+                <div key={route} onClick={redir} value={route} >
+                  {/* <button key={route} className={styles.boton} onClick={redir} value={route} ><span className={styles.pan} >{label}</span></button> */}
+                  <Button text={label} ></Button>
+                  </div>
+                // </li>
                 )
               })}
-            </ul>
+            {/* </ul> */}
+            </div>
+           
             
           </nav>
         </header>

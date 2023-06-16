@@ -1,5 +1,5 @@
 .contain{
-    text-align: center;
+    text-align: start;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .proyecto{
@@ -51,7 +51,7 @@
     margin-bottom: 20px;
   }
   .image{
-    background-image: url('./img/proyecto\ individual.png');
+    background-image: url('.././img/proyecto\ individual.png');
     background-size: cover;
     height: 333px;
     width: 700px;
@@ -59,14 +59,14 @@
     background-size: cover;
   }
   .rym{
-    background-image: url('./img/proyecto\ individual.png');
+    background-image: url('.././img/proyecto\ individual.png');
     height: 200px;
     width: 290px;
     float: right;
     background-size: cover;
   }
   .pf{
-    background-image: url('./img/pf.png');
+    background-image: url('.././img/pf.png');
     height: 200px;
     width: 290px;
     float: right;
@@ -97,6 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     /* padding: ; */
    }
    
@@ -104,6 +105,7 @@
     /* border-radius: 20px; */
     width: 290px;
     height: 290px;
+    text-align: center;
     background-color: #1a1a1a;
     /* border-radius:20px; */
     transition: all .2s;

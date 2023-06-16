@@ -1,10 +1,12 @@
 'use client'
 import styles from './proyecto.module.css'
 import { useState } from 'react'
-import pi from './img/proyecto individual.png'
-import rym from './img/rick and morty.png'
+import pi from '../img/proyecto individual.png'
+import rym from '../img/rick and morty.png'
 import Link from 'next/link'
-import pf from './img/pf.png'
+import pf from '../img/pf.png'
+import Button from '../button/Button'
+
 export function Proyecto(){
     const [mostrar, setMostrar] = useState(false)
     const [ mostrar1, setMostrar1 ] = useState(false)
@@ -17,7 +19,8 @@ export function Proyecto(){
     }
     return(
         <div  className={styles.contain}>
-            <h1 className={styles.titulo} >Proyectos</h1>
+            {/* <Button text="hola" ></Button> */}
+            <h1>Proyectos</h1>
         <div className={styles.proyecto} >
 
         {/* <div className={styles.single} >

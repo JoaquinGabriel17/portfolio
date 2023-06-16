@@ -6,6 +6,9 @@
     /* font-family: monospace; */
     text-align: start;
 }
+.tita{
+    margin-left: 0;
+}
 .educacion{
     border: solid;
     border-color: white;
