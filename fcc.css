@@ -1,0 +1,34 @@
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  #navbar ul li{
+    cursor: pointer;
+  }
+  #navbar ul li:hover{
+    text-decoration: underline;
+  }
+  #navbar{
+    background-color: red
+  }
+  @media (max-width: 1000px){
+    #navbar{
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      height: 100%;
+      float: left;
+      position: fixed;
+    }
+    #navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+  }
+  #main-doc{
+    margin-left: 110px
+  }
+  
+  }
