@@ -63,7 +63,7 @@ function showRedes(){
             {/* <div className={styles.logo} ></div> */}
             <h1 className={styles.allura} >Joaquín Ocampo</h1>
             <div className={styles.botonContain} > 
-            <a  href='https://flowcv.com/resume/k5qcg8c8oj' >
+            <a target="_blank"  href='https://flowcv.com/resume/k5qcg8c8oj' >
               
               <Button text="Curriculum" ></Button>
             </a>
@@ -76,13 +76,17 @@ function showRedes(){
                 
               {/* <ul className={styles.none}  > */}
                 <li>
-                  <a  href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
+                  <a target="_blank" href='https://www.linkedin.com/in/joaquin-ocampo-a7b213252/'>
+                    <div>
                   <img className={styles.icono} src='https://cdn-icons-png.flaticon.com/512/174/174857.png' alt="linkedin" ></img>
+                  </div>
                   </a>
                 </li>
                 <li>
-                  <a href='https://github.com/JoaquinGabriel17' >
+                  <a target="_blank" href='https://github.com/JoaquinGabriel17' >
+                    <div>
                   <img className={styles.icono} src='https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png' alt="github" ></img>
+                  </div>
                   </a>
                 </li>
               </ul>
